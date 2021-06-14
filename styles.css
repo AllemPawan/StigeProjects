@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.navBar{
+	background-color: #1D1D1F;
+	text-align: center;
+	color: white;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.navBarItems{
+	list-style-type: none;
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.infoT{
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	background-color: #F5F5F7;
+	text-align: center;
+	padding: 15px;
+}
+.iPadPro{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+.iPhone12{
+	text-align: center;
+	background-color:#f9fafc;
+}
+.iMac{
+	text-align: center;
+	background-color:#f9fafc;
+
+}
+.sixImage{
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	background-color:#f9fafc;
+	
+}
+.Images{
+	flex: 50%;
+	margin-top: 0.8rem;
+}
+footer{
+	background-color: #f9fafc;
+	color: gray;
+}
+.ImpInfo{
+	margin-left: 8rem;
+	margin-right: 8rem;
+	font-size: 12px;
+}
+.Terms{
+	color: gray;
+}
+.TermsItems{
+	padding-left: 0px;
+	display: inline;
+	font-size: 12px;
+}
+.ImpLinks{
+	margin-left: 8rem;
+	margin-right: 8rem;
+	display: flex;
+	justify-content: space-between;
+}
+.ImpLinksItems{
+	margin-top: 0.5rem;
+	list-style-type: none;
+	font-size: 12px;
+}
+
